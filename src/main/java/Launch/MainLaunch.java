@@ -36,8 +36,6 @@ public class MainLaunch {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        /*br.lines().forEach(line -> System.out.println(line));*/
-
 
         return;
     }
