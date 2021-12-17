@@ -26,7 +26,6 @@ public class MainLaunch {
         }
 
         ReadFile readfile = new ReadFile();
-
         try {
             InputStream inputStream = readfile.readFile("data.txt");
             InputStreamReader isr = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
