@@ -24,7 +24,6 @@ public class MainLaunch {
         for (int index = 0; index < 20; index++) {
             System.out.println(myMap.get(index));
         }
-
         ReadFile readfile = new ReadFile();
         try {
             InputStream inputStream = readfile.readFile("data.txt");
