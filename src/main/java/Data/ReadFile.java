@@ -10,5 +10,4 @@ public class ReadFile {
     public InputStream readFile(String filename){
         return this.getClass().getClassLoader().getResourceAsStream(filename);
     }
-
 }
