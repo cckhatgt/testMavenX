@@ -5,7 +5,6 @@ import java.io.InputStream;
 public class ReadFile {
 
     public ReadFile(){
-        return;
     }
 
     public InputStream readFile(String filename){
