@@ -8,10 +8,7 @@ public class ReadFile {
     }
 
     public InputStream readFile(String filename){
-        InputStream ioStream = this.getClass()
-                .getClassLoader()
-                .getResourceAsStream(filename);
-        return ioStream;
+        return this.getClass().getClassLoader().getResourceAsStream(filename);
     }
 
 }
